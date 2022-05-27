@@ -1,0 +1,9 @@
+<h1>Submit an exploit</h1><br>
+<form method="POST" enctype="multipart/form-data">
+Name: <input name="name" placeholder="Log4Shell"><br>
+CVE: <input name="cve" placeholder="CVE-####-####"><br>
+Vulnerable service and version: <input name="version" placeholder="Log4j <2.17.1 (Java 8)"><br>
+Description: <br><textarea name="description" rows=10 cols=100 style="resize: none;"></textarea><br>
+Exploit file (.txt or .pdf): <input type="file" name="file" accept=".txt,.pdf" required><br>
+<input type="submit">
+</form>

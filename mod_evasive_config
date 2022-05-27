@@ -1,0 +1,9 @@
+<IfModule mod_evasive20.c>
+    DOSPageCount 5
+    DOSSiteCount 10
+
+    DOSPageInterval 1
+    DOSSiteInterval 2
+
+    DOSBlockingPeriod 300
+</IfModule>
