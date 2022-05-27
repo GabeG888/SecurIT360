@@ -28,9 +28,10 @@ The contest was to create an application with the following specifications:
 Instructions:
 1. Clone this repo
 2. Enter the directory
-3. Run "./start.sh" to start the docker container
-4. Go to http://localhost:888
-5. Use "./restart.sh" to restart or "./stop.sh" to stop the docker container
+3. Use "chmod +x" to make all .sh files executable
+4. Run "./start.sh" to start the docker container
+5. Go to http://localhost:888
+6. Use "./restart.sh" to restart or "./stop.sh" to stop the docker container
 
 
 
