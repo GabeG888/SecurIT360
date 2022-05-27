@@ -55,11 +55,6 @@ function loggedIn(){
 	else return False;
 }
 
-//Show error messages, remove this later
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
-
 if ($_SERVER['REQUEST_METHOD'] === 'GET') {
 	if(array_key_exists('id', $_GET) && is_numeric($_GET['id'])){
 		$pdo = new PDO('sqlite:exploitfinder.sqlite');

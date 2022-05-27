@@ -55,11 +55,6 @@ function loggedIn(){
 	else return False;
 }
 
-//Show error messages, remove this later
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
-
 if(loggedIn()) echo "Logged in as " . getUsername() . "<br><br>";
 
 $pdo = new PDO('sqlite:exploitfinder.sqlite');
